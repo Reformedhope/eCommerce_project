@@ -17,9 +17,20 @@ html{
 
 .header{
    font-size: 25px;
-   padding: 30rem;
+   display: inline;
+   padding: 20px;
+   
+
+
 }
 
+ .banner {
+   background-image:linear-gradient(90deg,black 1%, transparent 61%, transparent 80%, black 98%), url("./assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg");
+   height: 400px;
+   background-size: cover;
+   background-position: center;
+
+ } 
 
 .header img {
    height: 27px;
@@ -30,6 +41,8 @@ nav{
    border-radius: 5%;
    top: -10%;
    padding: 2rem;
+   border-bottom-width: 5rem;
+   border-bottom-color: black;
 }
 
 nav a{
@@ -38,7 +51,10 @@ nav a{
 }
 
 
- 
+.searchBar{
+   background-image: url("./assets/1200px-Google_Magnifying_Glass.svg.png");
+   
+}
 
   nav ul {
     list-style-type: none;
@@ -48,6 +64,7 @@ nav a{
     display: inline;
     font-size: 15px;
     color: black;
+    padding: 15px;
 
  }
 
@@ -61,19 +78,16 @@ nav a{
  
 
  .home img {
-    position: absolute;
   background-color: black;
-  width: 100%;
-  height: 300px;
+  margin: 0;
+  padding: 0;
   border-color: black;
-  padding: 10px;
+ 
  }
   
- .home img{
-   height: 20px;
-   width: 100%;
-
- } 
+ .aboutus img {
+   height: 40px;
+ }
 
  
  .button1 {
@@ -122,5 +136,5 @@ line-height: 300px;
  .footwords1 {
    flex-direction: row-reverse;
 justify-content: space-around;
-align-items: flex-end; */
- } */
+align-items: flex-end; 
+ } 
